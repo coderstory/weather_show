@@ -31,5 +31,9 @@
     ],
     "python.analysis.extraPaths": [
         "c:/Users/coder/.vscode-insiders/extensions/rt-thread.rt-thread-micropython-1.0.11/microExamples/code-completion"
-    ]
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }

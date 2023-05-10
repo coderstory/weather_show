@@ -16,8 +16,10 @@ while True:
     elif LED_duty<=0:
         LED_duty=0
         LED_direction=1
-    LED.duty_u16(int(LED_duty*655.35))   #改变占空比
+    # 改变占空比
+    LED.duty_u16(int(LED_duty*655.35))
     if LED_duty%5==0:
-        print(LED_duty)       #打印LED_duty的值
-
-    utime.sleep(0.01)     #休息100ms
+        # 打印LED_duty的值
+        print(LED_duty) 
+    # 休息100ms
+    utime.sleep(0.01)

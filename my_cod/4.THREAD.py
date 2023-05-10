@@ -1,5 +1,7 @@
-import gc,time
+import gc
+import time
 import _thread
+
 
 def testThread():
     count = 0
